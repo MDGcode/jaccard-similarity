@@ -10,13 +10,16 @@ Sistemul funcționează conform planului inițial folosind o arhitectură *Maste
 
 Am rulat benchmarkul pe un set generat de 1,000,000 de nume (probabilitate middle-name = 0.8 la generare). Outputul esențial al rulării:
 
+```
 Generating 1000000 names into names.txt (middle name probability=0.8)...
 Generated 100000 names...
 ...Generated 900000 names...
 Generation complete.
-
-Master a încărcat `names.txt`:
+```
+Master a încărcat names.txt:
+```
 Loaded 1000000 records.
+```
 
 ### 1. Speedup (scalabilitate vs Număr Noduri)
 Testul a folosit `chunk_size=50000`, `target='Ion'`, `threshold=0.2`. Rezultatele observate:
