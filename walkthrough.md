@@ -1,6 +1,4 @@
-# Walkthrough & Performance Analysis
-
-Acest document descrie implementarea completă și testarea soluției de paralelizare a calculului similarității Jaccard folosind socketuri în Python.
+# Walkthrough
 
 ## Arhitectură
 Sistemul funcționează conform planului inițial folosind o arhitectură *Master-Worker*:
